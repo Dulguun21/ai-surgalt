@@ -22,7 +22,7 @@ plt.plot(range(1, 11), list_total_grains_2)
 
 # Problem 3
 total_grains_3 = list_total_grains_1[-1]
-num_people_3, grains_per_day_per_person_3 = 5, 400
+num_people_3, grains_per_day_per_person_3 = 4, 500
 days_of_survival = calculate_days_of_survival(total_grains_3, num_people_3, grains_per_day_per_person_3)
 print(f"With {total_grains_3} grains, {num_people_3} people can survive for {days_of_survival} days.")
 
